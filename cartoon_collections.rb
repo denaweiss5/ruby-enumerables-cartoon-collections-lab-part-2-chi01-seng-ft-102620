@@ -17,7 +17,7 @@ end
 
 
 def long_planeteer_calls(planeteer_calls)
-  array.any? {|string| string.length >4}
+  planeteer_calls.any? {|string| string.length >4}
 end
 
 def find_valid_calls(planeteer_calls)
