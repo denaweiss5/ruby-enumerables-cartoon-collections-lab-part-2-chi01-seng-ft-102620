@@ -22,5 +22,8 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  valid_calls.select {|string| planeteer_calls.include? string}
+  valid_calls.each  do |x|
+    if planeteer_calls.include? x
+      return x
+    end
 end
