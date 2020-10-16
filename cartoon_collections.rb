@@ -8,9 +8,10 @@ end
 
 
 def summon_captain_planet(planeteer_calls)
-  array.each do |element|
+  Array.each do |element|
     puts "#{element}.capitalize!"
   end
+  planeteer_calls
 end
 
 def long_planeteer_calls(planeteer_calls)
