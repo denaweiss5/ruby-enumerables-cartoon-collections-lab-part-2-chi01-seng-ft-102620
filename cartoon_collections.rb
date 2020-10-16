@@ -13,6 +13,7 @@ def summon_captain_planet(planeteer_calls)
      puts string.capitalize
 
     end
+    planeteer_calls
 end
 
 
