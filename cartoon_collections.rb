@@ -13,7 +13,6 @@ def summon_captain_planet(planeteer_calls)
       "#{string.capitalize}!"
 
     end
-    planeteer_calls
 end
 
 
