@@ -27,4 +27,5 @@ def find_valid_calls(planeteer_calls)
       return x
     end
   end
+  nil
 end
